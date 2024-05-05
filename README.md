@@ -91,3 +91,8 @@ Data Source – Coursera (Google Data analytics Certificate capstone Project - [
 * Created Some Pivot table in Excel of ride_lenght separated by count of casual and members, Avg. ride_length of the casual and members weekly wise and table of count of the riders.
 
 # Merged Data from 01 - 12
+
+You Can See the SQL code [Here](https://github.com/MD-Faisal-Khan/Google-Data-Analytics-CaseStudy1/blob/main/Merging%20Data.sql)
+
+* All 12 data tables from JAN 2021 to DEC 2021 were merged into one and some columns datatype is changed accordingly for the consistency in datatype.
+
