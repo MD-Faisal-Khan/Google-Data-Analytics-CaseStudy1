@@ -100,8 +100,35 @@ Points from this Code -
 
 # Data Preparation
 
-You can see the SQL code [Here]()
+You can see the SQL code [Here](https://github.com/MD-Faisal-Khan/Google-Data-Analytics-CaseStudy1/blob/main/Data%20Preparation.sql)
+
 Points from this Code -
 * Dataset Contains ride_length col. Which is created by difference between ended_at and started_at col. But when it exported into BigQuery it’s values changed along with Data type that appears as string so to solve this problem, I’ve created another col. Name ride_length2 having data cal. In Sql by running query.
 * Here are we creating a new table again “merged1” because the ride_length_2 is an Interval Datatype and to Execute AVG function or for other analysis purpose I need Numeric/Integer or Float64 Datatype for that and DATETIME_DIFF function provides that. So here I breakdown the time interval format from hh:mm:ss to “ss” and “hh” and I got time interval in ss and hh.
 * Then I’ve removed those ride_length which are less than a minute because there is no info. of distance covered given in dataset, by using Haversine formula we can calculate that, but this will make data more vulnerable in respect to analysis. So, it sounds logical that below than 60 sec ride_length is an outliers and also filtering data which ride_length are more than a day 1440 sec with same logic and these are counted as outliers.
+
+# Filtrations can be done in a different way
+
+****Getting the z-score****
+
+You can see the SQL code []()
+
+Points from this Code -
+* Now there are two ways to get this info, one is simple that we filter out the data as and the Second Way is by removing the outliers first then calculate.
+* Now in data analysis, an outlier is an observation that lies far away from other observations in a dataset. Outliers can occur due to various reasons such as measurement errors, data corruption, or genuine unusual behavior. Identifying and handling outliers is an important step in data preprocessing and analysis because they can significantly affect statistical measures. Outliers can distort the results of analyses such as means, variances, and correlations, leading to misleading interpretations and conclusions.
+* To get the clean data by removing the outliers, there are different methods to remove outliers. But we are going to use the Step Deviation Method (for better understanding you can refer to this site - [Click here](http://gavindraper.com/2018/04/30/SQL-Server-Remving-Outliers-With-Math/)). Now to remove outliers using the step deviation method in SQL, you can calculate the z-score for each data point and then filter out the outliers based on a specified threshold. 
+
+The z-score tells you how many standard deviations away from the mean a particular data point is. A high absolute z-score (far from zero) indicates that the data point is far from the mean, while a low absolute z-score (close to zero) indicates that the data point is close to the mean.
+
+Here's the approximate percentiles for z-scores of 1, 2, 3, and 4 etc.. :
+
+    * A z-score of 1 corresponds roughly to the 84th percentile.
+    * A z-score of 2 corresponds roughly to the 97.7th percentile.
+    * A z-score of 3 corresponds roughly to the 99.9th percentile.
+    * A z-score of 4 corresponds roughly to the 99.99th percentile.
+
+These percentiles indicate the proportion of data points in a standard normal distribution that fall below the corresponding z-score. For example, a z-score of 2 means that approximately 97.7% of the data falls below that value, while a z-score of 3 means that approximately 99.9% of the data falls below that value. And we’re going to take 3 z-score.
+
+* Firstly, filter out the minimum criteria because it will affect in calculation which is to filter out ride_length which are less than a 60 sec.
+* After that we use the ride_len_sec to get the Mean and Standard Deviation to get the z – score and we’re filtering out till ‘3’ z – score which covers 99.9th percentile.
+
