@@ -111,7 +111,7 @@ Points from this Code -
 
 ****Getting the z-score****
 
-You can see the SQL code []()
+You can see the SQL code [](https://github.com/MD-Faisal-Khan/Google-Data-Analytics-CaseStudy1/blob/main/Filteration%20in%20different%20way%20Getting%20Z%20score.sql)
 
 Points from this Code -
 * Now there are two ways to get this info, one is simple that we filter out the data as and the Second Way is by removing the outliers first then calculate.
@@ -132,3 +132,113 @@ These percentiles indicate the proportion of data points in a standard normal di
 * Firstly, filter out the minimum criteria because it will affect in calculation which is to filter out ride_length which are less than a 60 sec.
 * After that we use the ride_len_sec to get the Mean and Standard Deviation to get the z – score and we’re filtering out till ‘3’ z – score which covers 99.9th percentile.
 
+# Phase 4: Analyze
+
+We have done the Computation and Analysis on SQL, You can see the SQL code [Here]()
+
+These are some things which we are trying to get through Sql -
+* Peak Weekdays, Months and Hour of Riders
+* Average Ride length of the weekdays and Months of Riders
+* Overall total Average, Max and Min of Riders
+* Top 5 Peak Start station and end station name of Riders
+* Combined the Start_station_name and end_station_name to seek the most frequently starting and end destination of different riders
+
+# Phase 5: SHARE
+
+Here we're sharing or telling a Story with a compelling Vizuals.
+
+We will start it with a Question and then try to get insights and answers from the vizualizations.
+
+Deliverables :
+* Differentiation between annual members and casual riders who use Cyclist bikes.
+* How to convert casual riders to purchase annual membership.
+* Digital Marketing Techniques Suggestions for marketing.
+
+****Question****
+
+* Which bike does member and casual riders uses throughout the year?
+
+![Casual_riders](https://drive.google.com/file/d/1OAAeVbdquQjxLbQwJO6XHzbAWSx-HekK/view?usp=drive_link)
+
+Here we can see that clasic bike are more popular in casual riders but they also use docked and electric bike it Shows that Casual riders consist composition of different users.
+
+![Members_riders](https://drive.google.com/file/d/1lReoLh6nCcQrJrLeLfrnDMvsFvjR4xXD/view?usp=drive_link)
+
+with members rider they also use clasic bikes much and no use of docked bike and few uses electric bike.
+
+* What are the Popular months, weekdays and Peak hour of trips taken by member and casual riders?
+
+![Monthly wise](https://drive.google.com/file/d/1IwC8fLR0wL6eWnqZI648ST31dq5XfBGY/view?usp=drive_link)
+
+In this Vizualization we can see the trend that both casual and members bike usage gradually increase from February and gradually decreases from September till end of the year.
+
+The Peak Months are from June to September for casual riders mostly it is in spring and summer where casual rider usage increases.
+
+![Weekday wise](https://drive.google.com/file/d/1lgl7G3mw4l7crb3jCAtP_aTbJCti9_mo/view?usp=drive_link)
+
+Now in this Vizualization, we can clearly see that that casual riders tend to use more bike trips in weekends form Friday to Sunday and then it decrease gradually, while members riders are consistent in usage and decreased in weekend somewhat.
+
+![Hour wise](https://drive.google.com/file/d/13bNCp9Hn-XepsWf5WdvSVlvFHDppJ82M/view?usp=drive_link)
+
+If we see members trendline it Gradually increases from 6AM morning and peak between 4PM and 6PM and then gradually goes down.
+
+Now if we see Cauals riders trend line it peak two times first from 6AM to 8AM then it peak from 4PM to between 6PM and 8PM.
+
+* What are the Average ride length in months, weekdays and Peak hour of trips taken by member and casual riders?
+
+![Month wise](https://drive.google.com/file/d/1NZs0c-UyURaYqKJ80vaqLDat5aPrgJDQ/view?usp=drive_link)
+
+Here we can see that Avg ride length of members are quite consistent in all month it remains in between 10 to 15 Minutes.
+
+While casual riders Avg ride length peak in between february till may more than 30 Minutes and then gradualy decreases till Dec.
+
+![Weekday wise](https://drive.google.com/file/d/1l6pauksB0fcTpdOofkzsGR73tpu9YXXk/view?usp=drive_link)
+
+Members Avg length graph are almost same like above graph and even same Avg lenght between 10 to 15 minutes.
+
+In Casual riders the Avg ride length is high compared to members and it increases in weekend between 25 to 30 Minute
+
+![Hour wise](https://drive.google.com/file/d/1QQc0_VMu-QJVanOZoVacTceQ7OHpmgj6/view?usp=drive_link)
+
+Members riders Avg ride length remain almost consistent throughout the day.
+
+Casual riders Avg ride length first it start rising from 6 AM and then Peak between 10AM to 2PM and the AVG ride length at that point is +30 Minute
+
+* What does the start station and end station trips trend shows?
+
+![Start station casual](https://drive.google.com/file/d/1Ds2qD49EiRaRArm6643DeBhSmx0_owTk/view?usp=drive_link)
+
+This Shows that casual riders usually start their trips near Places like museums, parks, beach, harbor points and aquarium.
+
+![End station casual](https://drive.google.com/file/d/1aeNtm1SUpRNmaXrQpiDeK21XjKWw4A77/view?usp=drive_link)
+
+It also shows almost same result like start station, Casual riders end their trip near parks, museums and other leisure sites.
+
+![Total sum of ride length in sec](https://drive.google.com/file/d/10DYk7niQ9weGZ1nT-O4G9XVoRwf0HlYN/view?usp=drive_link)
+
+Here we can see that total time spent on bike, casual riders are almost Double compare to members
+
+This Vizualization confirms our hypothesis that casual riders are using bike rides for leisure
+
+# Phase 6: ACT
+
+These are some insights i got from the analysis, these insights are based upon my observations: -
+
+* From the above analysis we got this info that casual members are composed of tourists, families who mostly visit for sightseeing areas and they usually go for leisure activites
+
+* If we see members riders, analysis show that they are composed of working peoples or students who use it for their transportation
+
+* According to the analysis we need to introduce new passes to cater the right need without exploiting the passes lucrative benifits.
+
+Now let's go and give the beautiful and professional answers to Moreno's question : To design marketing strategies to convert casual riders into annual members --
+
+* From our Hypothesis we can say that casual riders are Tourists and Families peoples who visit for sightseeing so we should target those peoples who are searching to do travelling in these sites.
+
+* As we can see from the analysis that Casual riders peak of usage in weekends as well as from the month of June to September, So We should do extensive Marketing in this Period.
+
+* In the Vizualization it clearly showed that casual riders use bikes for longer duration than members so this is the chance where we can convert casual riders to annual members by giving them lucrative offers and Discounts and it would be better if we promote these in same time Period as we're marketing in aforementioned time period.
+
+* At the same time We should do Digital Promotion on location based, it means we should do more advertisements for popular start station and end station points by using features of location based marketing of different digital platforms.
+
+# THE END
+****Our Journey for this case study ends here for Now we will meet later, Good luck to you all guys****
