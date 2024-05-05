@@ -238,3 +238,9 @@ mean_of_ride_length,
 max_of_ride_length,
 mode_of_ride_length
 FROM `divvy-trip-2021.Pr_divvy_trips_2021.12`
+
+---- Merging Data from the 01-11 to 12 by using outer join function
+
+SELECT *
+FROM `divvy-trip-2021.Pr_divvy_trips_2021.merged_data_test2` AS merged
+FULL OUTER JOIN `divvy-trip-2021.Pr_divvy_trips_2021.12` AS m12 ON merged.ride_id = m12.ride_id
