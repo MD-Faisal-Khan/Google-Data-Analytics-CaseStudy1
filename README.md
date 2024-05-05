@@ -94,5 +94,14 @@ Data Source – Coursera (Google Data analytics Certificate capstone Project - [
 
 You Can See the SQL code [Here](https://github.com/MD-Faisal-Khan/Google-Data-Analytics-CaseStudy1/blob/main/Merging%20Data.sql)
 
-* All 12 data tables from JAN 2021 to DEC 2021 were merged into one and some columns datatype is changed accordingly for the consistency in datatype.
+Points from this Code -
+* All 12 data tables from JAN 2021 to DEC 2021 were merged into one and some columns datatype is changed accordingly for the consistency in datatype
+* The Last Month Data has been Merged by Using Join Clause
 
+# Data Preparation
+
+You can see the SQL code [Here]()
+Points from this Code -
+* Dataset Contains ride_length col. Which is created by difference between ended_at and started_at col. But when it exported into BigQuery it’s values changed along with Data type that appears as string so to solve this problem, I’ve created another col. Name ride_length2 having data cal. In Sql by running query.
+* Here are we creating a new table again “merged1” because the ride_length_2 is an Interval Datatype and to Execute AVG function or for other analysis purpose I need Numeric/Integer or Float64 Datatype for that and DATETIME_DIFF function provides that. So here I breakdown the time interval format from hh:mm:ss to “ss” and “hh” and I got time interval in ss and hh.
+* Then I’ve removed those ride_length which are less than a minute because there is no info. of distance covered given in dataset, by using Haversine formula we can calculate that, but this will make data more vulnerable in respect to analysis. So, it sounds logical that below than 60 sec ride_length is an outliers and also filtering data which ride_length are more than a day 1440 sec with same logic and these are counted as outliers.
