@@ -149,11 +149,6 @@ Here we're sharing or telling a Story with a compelling Vizuals.
 
 We will start it with a Question and then try to get insights and answers from the vizualizations.
 
-Deliverables :
-* Differentiation between annual members and casual riders who use Cyclist bikes.
-* How to convert casual riders to purchase annual membership.
-* Digital Marketing Techniques Suggestions for marketing.
-
 ****Question****
 
 * Which bike does member and casual riders uses throughout the year?
@@ -227,6 +222,11 @@ Here we can see that total time spent on bike, casual riders are almost Double c
 This Vizualization confirms our hypothesis that casual riders are using bike rides for leisure
 
 # Phase 6: ACT
+
+Deliverables :
+* Differentiation between annual members and casual riders who use Cyclist bikes.
+* How to convert casual riders to purchase annual membership.
+* Digital Marketing Techniques Suggestions for marketing.
 
 These are some insights i got from the analysis, these insights are based upon my observations: -
 
