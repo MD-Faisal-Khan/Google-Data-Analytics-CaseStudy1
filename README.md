@@ -134,7 +134,7 @@ These percentiles indicate the proportion of data points in a standard normal di
 
 # Phase 4: Analyze
 
-We have done the Computation and Analysis on SQL, You can see the SQL code [Here]()
+We have done the Computation and Analysis on SQL, You can see the SQL code [Here](https://github.com/MD-Faisal-Khan/Google-Data-Analytics-CaseStudy1/blob/main/Data%20Computation%26Analysis.sql)
 
 These are some things which we are trying to get through Sql -
 * Peak Weekdays, Months and Hour of Riders
