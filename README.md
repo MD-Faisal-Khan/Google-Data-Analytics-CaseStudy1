@@ -158,63 +158,69 @@ Deliverables :
 
 * Which bike does member and casual riders uses throughout the year?
 
-![Casual_riders](https://drive.google.com/file/d/1OAAeVbdquQjxLbQwJO6XHzbAWSx-HekK/view?usp=drive_link)
+![Casual_riders](https://drive.google.com/uc?id=1OAAeVbdquQjxLbQwJO6XHzbAWSx-HekK)
 
 Here we can see that clasic bike are more popular in casual riders but they also use docked and electric bike it Shows that Casual riders consist composition of different users.
 
-![Members_riders](https://drive.google.com/file/d/1lReoLh6nCcQrJrLeLfrnDMvsFvjR4xXD/view?usp=drive_link)
+![Members_riders](https://drive.google.com/uc?id=1lReoLh6nCcQrJrLeLfrnDMvsFvjR4xXD)
 
 with members rider they also use clasic bikes much and no use of docked bike and few uses electric bike.
 
+****Question****
+
 * What are the Popular months, weekdays and Peak hour of trips taken by member and casual riders?
 
-![Monthly wise](https://drive.google.com/file/d/1IwC8fLR0wL6eWnqZI648ST31dq5XfBGY/view?usp=drive_link)
+![Monthly wise](https://drive.google.com/uc?id=1IwC8fLR0wL6eWnqZI648ST31dq5XfBGY)
 
 In this Vizualization we can see the trend that both casual and members bike usage gradually increase from February and gradually decreases from September till end of the year.
 
 The Peak Months are from June to September for casual riders mostly it is in spring and summer where casual rider usage increases.
 
-![Weekday wise](https://drive.google.com/file/d/1lgl7G3mw4l7crb3jCAtP_aTbJCti9_mo/view?usp=drive_link)
+![Weekday wise](https://drive.google.com/uc?id=1lgl7G3mw4l7crb3jCAtP_aTbJCti9_mo)
 
 Now in this Vizualization, we can clearly see that that casual riders tend to use more bike trips in weekends form Friday to Sunday and then it decrease gradually, while members riders are consistent in usage and decreased in weekend somewhat.
 
-![Hour wise](https://drive.google.com/file/d/13bNCp9Hn-XepsWf5WdvSVlvFHDppJ82M/view?usp=drive_link)
+![Hour wise](https://drive.google.com/uc?id=13bNCp9Hn-XepsWf5WdvSVlvFHDppJ82M)
 
 If we see members trendline it Gradually increases from 6AM morning and peak between 4PM and 6PM and then gradually goes down.
 
 Now if we see Cauals riders trend line it peak two times first from 6AM to 8AM then it peak from 4PM to between 6PM and 8PM.
 
+****Question****
+
 * What are the Average ride length in months, weekdays and Peak hour of trips taken by member and casual riders?
 
-![Month wise](https://drive.google.com/file/d/1NZs0c-UyURaYqKJ80vaqLDat5aPrgJDQ/view?usp=drive_link)
+![Month wise](https://drive.google.com/uc?id=1NZs0c-UyURaYqKJ80vaqLDat5aPrgJDQ)
 
 Here we can see that Avg ride length of members are quite consistent in all month it remains in between 10 to 15 Minutes.
 
 While casual riders Avg ride length peak in between february till may more than 30 Minutes and then gradualy decreases till Dec.
 
-![Weekday wise](https://drive.google.com/file/d/1l6pauksB0fcTpdOofkzsGR73tpu9YXXk/view?usp=drive_link)
+![Weekday wise](https://drive.google.com/uc?id=1l6pauksB0fcTpdOofkzsGR73tpu9YXXk)
 
 Members Avg length graph are almost same like above graph and even same Avg lenght between 10 to 15 minutes.
 
 In Casual riders the Avg ride length is high compared to members and it increases in weekend between 25 to 30 Minute
 
-![Hour wise](https://drive.google.com/file/d/1QQc0_VMu-QJVanOZoVacTceQ7OHpmgj6/view?usp=drive_link)
+![Hour wise](https://drive.google.com/uc?id=1QQc0_VMu-QJVanOZoVacTceQ7OHpmgj6)
 
 Members riders Avg ride length remain almost consistent throughout the day.
 
 Casual riders Avg ride length first it start rising from 6 AM and then Peak between 10AM to 2PM and the AVG ride length at that point is +30 Minute
 
+****Question****
+
 * What does the start station and end station trips trend shows?
 
-![Start station casual](https://drive.google.com/file/d/1Ds2qD49EiRaRArm6643DeBhSmx0_owTk/view?usp=drive_link)
+![Start station casual](https://drive.google.com/uc?id=1Ds2qD49EiRaRArm6643DeBhSmx0_owTk)
 
 This Shows that casual riders usually start their trips near Places like museums, parks, beach, harbor points and aquarium.
 
-![End station casual](https://drive.google.com/file/d/1aeNtm1SUpRNmaXrQpiDeK21XjKWw4A77/view?usp=drive_link)
+![End station casual](https://drive.google.com/uc?id=1aeNtm1SUpRNmaXrQpiDeK21XjKWw4A77)
 
 It also shows almost same result like start station, Casual riders end their trip near parks, museums and other leisure sites.
 
-![Total sum of ride length in sec](https://drive.google.com/file/d/10DYk7niQ9weGZ1nT-O4G9XVoRwf0HlYN/view?usp=drive_link)
+![Total sum of ride length in sec](https://drive.google.com/uc?id=10DYk7niQ9weGZ1nT-O4G9XVoRwf0HlYN)
 
 Here we can see that total time spent on bike, casual riders are almost Double compare to members
 
